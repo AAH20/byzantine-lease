@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "byzantine-lease"
+version = "0.1.0"
+description = "Distributed Mutex & Fencing Token Lease Manager for Multi-Agent Swarm Concurrency"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Ahmed Hassan", email = "ahmed@example.com" }
+]
+keywords = [
+    "distributed-lock",
+    "mutex",
+    "fencing-tokens",
+    "multi-agent",
+    "concurrency",
+    "claude-opus-5-5",
+    "deepseek-v4-1",
+    "ai-agents"
+]
+dependencies = []
+
+[project.scripts]
+byzantine-lease = "byzantine_lease.cli:main"
